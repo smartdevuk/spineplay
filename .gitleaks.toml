@@ -1,0 +1,18 @@
+title = "Spineplay source and release secret checks"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "plex-token-literal"
+description = "Hardcoded Plex token"
+regex = '''(?i)(?:X-Plex-Token|plex[_-]?(?:access[_-]?)?token)\s*["']?\s*[:=]\s*["']([A-Za-z0-9_-]{16,})'''
+secretGroup = 1
+keywords = ["plex", "Plex", "PLEX"]
+
+[[rules]]
+id = "plex-header-literal"
+description = "Hardcoded Plex header credential"
+regex = '''(?i)header\s*\(\s*["']X-Plex-Token["']\s*,\s*["']([A-Za-z0-9_-]{16,})'''
+secretGroup = 1
+keywords = ["Plex-Token", "plex-token"]

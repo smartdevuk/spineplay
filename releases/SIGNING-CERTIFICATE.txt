@@ -1,0 +1,4 @@
+Spineplay official beta signer (public certificate fingerprint only).
+This is the same signing certificate as the earlier private development builds.
+Signer #1 certificate SHA-256 digest: 0383b4120a42f88f2a5bcd9cfc110d37d50e4aa70862f09c3906ab1650e27adb
+Private keys are not included.

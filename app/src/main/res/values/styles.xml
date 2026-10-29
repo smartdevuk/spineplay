@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.Spineplay.Base" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/spineplay_background</item>
+        <item name="android:colorAccent">@color/spineplay_amber</item>
+        <item name="android:statusBarColor">@color/spineplay_background</item>
+        <item name="android:navigationBarColor">@color/spineplay_background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.Spineplay" parent="Theme.Spineplay.Base" />
+</resources>

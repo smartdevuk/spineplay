@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title description">
+  <title id="title">Spineplay</title>
+  <desc id="description">Audiobooks for Plex. Three golden book spines beside a play symbol.</desc>
+  <rect width="1200" height="290" rx="24" fill="#18130f"/>
+  <g fill="#ffb735" transform="translate(120 65)">
+    <rect x="0" y="50" width="14" height="78" rx="5"/>
+    <rect x="26" y="20" width="14" height="108" rx="5"/>
+    <rect x="52" y="36" width="14" height="92" rx="5"/>
+    <path d="M88 34 L88 120 L140 77 Z"/>
+  </g>
+  <text x="320" y="145" fill="#f7f2e8" font-family="Georgia,serif" font-weight="bold" font-size="82">Spineplay</text>
+  <text x="325" y="202" fill="#b9b1a7" font-family="Arial,sans-serif" font-size="29" letter-spacing="2">Audiobooks for Plex</text>
+</svg>

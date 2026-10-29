@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.Spineplay" parent="Theme.Spineplay.Base">
+        <item name="android:windowSplashScreenBackground">@color/spineplay_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_spineplay_foreground</item>
+        <item name="android:windowSplashScreenAnimationDuration">600</item>
+    </style>
+</resources>
